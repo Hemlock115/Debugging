@@ -36,9 +36,9 @@ var joinList = function() {
 };
 
 window.onload = function() {
-    alert("Hi");
-    var jj = $("join_List");
-    alert(jj);
+    //alert("Hi");
+    //var jj = $("join_List");
+   //alert(jj);
     
     $("join_List").onclick = joinList;
     $("email_address1").focus();
